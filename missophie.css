@@ -1,0 +1,21 @@
+.sophies-popup {
+  border-radius: 10px;
+  display: none;
+  border: 1px solid rgb(200, 200, 210);
+  background: white;
+  -webkit-box-shadow: #CCC 0 0 .25em;
+  -moz-box-shadow: #CCC 0 0 .25em;
+  box-shadow: #CCC 0 0 .25em;
+  z-index: 10;
+}
+
+.sophies-title {
+  border-bottom: 1px solid rgb(200, 200, 210);
+  display: block;
+  padding: 5px;
+}
+
+.sophies-content {
+  display: block;
+  padding: 5px;
+}

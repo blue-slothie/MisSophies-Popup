@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title>Demo</title>
+    <link rel="stylesheet" href="missophie.css">
+    <style>
+      .marker {
+        display: block;
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <span class="marker" style="top: 300px; left: 0px;">
+      <div class="sophies-popup" data-sophies-height="400" data-sophies-width="500" data-sophies-duration="230">
+        <div class="sophies-title">
+          <h3>Hallo!</h3>
+        </div>
+        <div class="sophies-content">
+          <p>Who ever reads this is</p>
+          <h2>Awesome!</h2>
+        </div>
+      </div>
+    </span>
+    <span class="marker" style="top: 200; left: 400px;">
+      <div class="sophies-popup" data-sophies-height="400" data-sophies-width="500" data-sophies-duration="230">
+        <div class="sophies-title">
+          <h3>You even tried this one?!</h3>
+        </div>
+        <div class="sophies-content">
+          <p>Who ever reads this is nosy ;-)</p>
+        </div>
+      </div>
+    </span>
+    <span class="marker" style="bottom: 3; right: 3">
+      <div class="sophies-popup" data-sophies-height="400" data-sophies-width="500" data-sophies-duration="230">
+        <div class="sophies-content">
+          <p>yeah another popup!</p>
+        </div>
+      </div>
+    </span>
+    <script type="text/javascript" src="missophie.js"></script>
+    <script>
+      new missophie();
+    </script>
+  </body>
+</html>
